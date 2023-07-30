@@ -3,6 +3,7 @@ import digitalDice from './assets/digitalDice.svg'
 import { HeaderStyle } from './style'
 
 const Header = () => {
+
     return (
         <HeaderStyle>
             <h1>
