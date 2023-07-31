@@ -6,9 +6,11 @@ const Header = () => {
 
     return (
         <HeaderStyle>
-            <h1>
-                <img src={digitalDice} alt="Digital Dice logo" />
-            </h1>
+            <a href="#">
+                <h1>
+                    <img src={digitalDice} alt="Digital Dice logo" />
+                </h1>
+            </a>
             <button>
                 Login
             </button>

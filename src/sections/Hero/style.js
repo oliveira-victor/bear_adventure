@@ -21,6 +21,7 @@ export const HeroElementsContainer = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: #fff;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.9);
 
     .presents {
         text-align: center;
@@ -101,4 +102,38 @@ export const HeroElementsContainer = styled.div`
         margin: 0 auto;
         }
     }
+`
+export const ExtraPhoneImg = styled.div`
+display: none;
+
+@media (max-width: 630px) {
+    display: block;
+    position: relative;
+
+    .freeToPlay {
+        background-color: green;
+        color: #fff;
+        font-weight: bolder;
+        font-size: 1em;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        border-radius: 50%;
+        border: 4px solid #fff;
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        padding: 10px;
+        transform: rotate(-20deg);
+    }
+
+    & img {
+        width: 70%;
+        padding: 40px 10px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+    
 `
