@@ -29,8 +29,6 @@ export const HeroElementsContainer = styled.div`
 
     .phoneImage {
         width: 400px;
-        display: block;
-        margin: 0 auto;
     }
 
     .gameTitleImg {
